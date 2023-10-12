@@ -31,9 +31,10 @@ body {
 }
 
 .container {
-  margin: 5rem auto;
-  width: 25vw;
+  margin: 1rem auto;
+  width: 90%;
   text-align: center;
+  max-width: 400px;
 }
 
 .tasks {
@@ -67,9 +68,10 @@ body {
 }
 
 .no-tasks {
-  margin: 2rem;
+  margin: 1rem;
 }
-// statuses
+
+/* Statuses */
 .finished {
   text-decoration: line-through;
   color: disabled;
@@ -77,4 +79,14 @@ body {
 }
 .pastDeadline {
   color: red;
+}
+
+/* Desktop screens */
+@media (min-width: 768px) {
+  .container {
+    margin: 2rem auto;
+  }
+  .task {
+    margin: 0.2rem;
+  }
 }
