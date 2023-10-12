@@ -19,9 +19,9 @@ A simple TODO app built with React and Firebase as the database. It´s main purp
 - Material-UI
 
 ## Future work
-- auth!!!
-- ability to plan TODOs to days ahead
-- reports on succesful user is 
+- auth !!!
+- ability to plan tasks to days ahead
+- reports on how succesful user is in completing tasks 
 - reminders for upcoming TODOs (maybe daily emails?)
 - improve design & dark mode
 
