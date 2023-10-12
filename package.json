@@ -1,5 +1,5 @@
 {
-  "homepage": "https://martin-capek.github.io/todo-app/",
+  "homepage": "https://martin-capek.github.io/todo-app",
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
